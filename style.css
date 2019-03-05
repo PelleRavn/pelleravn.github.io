@@ -1,0 +1,113 @@
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+
+	background: -webkit-radial-gradient(circle, #fff, #eee); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(circle, #fff, #eee); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(circle, #fff, #eee); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(circle, #fff, #eee); /* Standard syntax */
+}
+
+h1
+{
+	margin: 0;
+}
+
+h2
+{
+	margin: 0;
+}
+
+#container img
+{
+	padding: 3px;
+	border: solid 1px #aaa;
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+}
+
+@media only screen and (max-device-width : 400px)
+{
+  h1
+  {
+    font-size: 8em;
+  }
+
+  h2
+  {
+    font-size: 4em;
+  }
+
+  #navcontainer ul li a img
+  {
+  	width: 100px;
+  }
+
+  #container img
+  {
+  	width: 640px;
+  }
+}
+
+@media only screen and (min-device-width : 400px)
+{
+  h1
+  {
+    font-size: 6em;
+  }
+
+  h2
+  {
+    font-size: 3em;
+  }
+
+  #navcontainer ul li a img
+  {
+  	width: 48px;
+  }
+
+  #container img
+  {
+  	width: 320px;
+  }
+}
+
+#container
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+}
+
+#navcontainer
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+#navcontainer ul
+{
+	margin: 0;
+	padding: 0;
+	margin-top: 2em;
+	list-style-type: none;
+}
+
+#navcontainer ul li
+{ 
+	display: inline;
+	width
+}
+
+#navcontainer ul li a
+{
+	text-decoration: none;
+
+	padding: .1em 0.2em;
+}
